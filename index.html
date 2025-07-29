@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>fikrah</title>
+        <meta name="description" content="fikrah confrenece" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="../css-tasks/tasks.css">
+    </head>
+
+    <body>
+        <header class="header">
+            <div><a href="tasks.html"><img src="fikrah.jpeg" alt=""></a>
+            <h1> Welcome to Fikrah Confrence</h1>
+                <p>Join us at Fikrah Conference 2025, where Dr. Mohammad Kilany will deliver an inspiring lecture on how to start your own business. He will share practical steps, explain when the right time is to launch, and discuss the key character traits needed to become a successful entrepreneur. This session is perfect for aspiring business owners and anyone eager to turn their ideas into reality.
+                </p>
+                    <p>As Dr. Kilany said, <q>Ideas are seeds of change.</q></p>
+                
+                <blockquote>
+                “Fikrah changed my perspective on entrepreneurship!” — Attendee, 2024
+                </blockquote>
+
+
+                <p>Speaker: <bdi>محمد الكيلاني</bdi></p>
+
+
+                <p>Contact us at: fikrah<wbr>.conference<wbr>.team<wbr>@gmail.com</p>
+
+            </div>
+            <hr>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#header">home</a></li>
+                    <li><a href="#schedule">schedule</a></li>
+                    <li><a href="#forms">register</a></li>
+                    <li><a href="#footer">more</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section id="schedule">
+            
+<table border="1" cellpadding="20">
+  <thead>
+    <tr>
+      <th>Session Name</th>
+      <th>Speaker</th>
+      <th>Date</th>
+      <th>Time</th>
+      <th>Place</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>How to Start Your Business</td>
+      <td>Dr. Mohammad Kilany</td>
+      <td>July 25, 2025</td>
+      <td>6:00 PM</td>
+      <td>Amman</td>
+    </tr>
+    <tr>
+      <td>How to Start Your Business</td>
+      <td>Dr. Mohammad Kilany</td>
+      <td>July 30, 2025</td>
+      <td>8:00 PM</td>
+      <td>Dubai</td>
+    <tr>
+      <td>How to Start Your Business</td>
+      <td>Dr. Mohammad Kilany</td>
+      <td>August 6, 2025</td>
+      <td>7:00 PM</td>
+      <td>Cairo</td>
+    </tr>
+  </tbody>
+  <tfoot>
+    <tr>
+      <td colspan="4">All sessions are subject to change.</td>
+    </tr>
+  </tfoot>
+</table>
+</section >
+
+<hr>
+
+        
+        <section id="forms">
+            
+<form action="submit.php" method="post" novalidate>
+
+            <span class="reg">register</span>
+            <div><label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" name="fullname" required placeholder="Enter your full name">
+            </div>
+
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required placeholder="example@email.com">
+
+            </div>
+                <div>
+                    <label for="age">Age:</label>
+                    <input type="number" id="age" name="age" min="0" max="120" required>
+                </div>
+
+                <div>
+                    <p>Gender:</p>
+                    <input type="radio" id="male" name="gender" value="male" required>
+                    <label for="male">Male</label>
+
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label>
+
+                </div>
+
+                <div>
+                    <p>Days Attending:</p>
+                    <input type="checkbox" id="day1" name="days" value="July 25">
+                    <label for="day1">July 25</label>
+
+                    <input type="checkbox" id="day2" name="days" value="July 30">
+                    <label for="day2">July 30</label>
+
+                    <input type="checkbox" id="day3" name="days" value="August 6">
+                    <label for="day3">August 6</label>
+
+                </div>
+
+                <div>
+                    <label for="comments">Comments:</label>
+                    <textarea id="comments" name="comments" rows="4" placeholder="Write your message here..."></textarea>
+
+                </div>
+
+                <div>
+                    <label for="search">Search our site:</label>
+                    <input type="search" id="search" name="search"> <!--trainee 2 -->
+
+                </div>
+
+                <div>
+                    <label for="excitement">how excited are you?! (1–10):</label>
+                    <input type="range" id="excitement" name="excitement" min="1" max="10"> <!--trainee 2-->
+
+                </div>
+                 <div>
+                    <label for="city">City:</label>
+                    <input list="cities" id="city" name="city">
+                    <datalist id="cities">
+                    <option value="Amman">
+                    <option value="Dubai">
+                    <option value="Cairo">
+                    </datalist>
+                </div> <!--trainee 2-->
+
+
+                <input type="hidden" name="registration_token" value="xyz123">
+
+
+                <div>
+                <label for="favcolor">Pick Your Favorite Color:</label>
+                <input type="color" id="favcolor" name="favcolor">
+                </div>
+
+
+                <div>               
+                <label for="arrival">Expected Arrival Time:</label>
+                <input type="time" id="arrival" name="arrival">
+                </div>
+
+
+                <div>               
+                <label for="cv">Upload Your CV:</label>
+                <input type="file" id="cv" name="cv">
+                </div>
+
+
+                <div>               
+                <label for="website">Your Website or Portfolio:</label>
+                <input type="url" id="website" name="website" placeholder="https://example.com">
+                </div>
+
+                <div id="overflow-box">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, quia reiciendis illum distinctio saepe officiis ratione nesciunt itaque repellat? Animi repellat dolore magnam, provident minus ab accusantium quidem saepe similique!
+                </div>
+
+                <div>
+                    <button type="submit"><span id="button">submit</span></button> <!-- Submit button: submits the form -->
+                   
+                    <button type="button"><span id="click">Click Me</span></button>  <!-- Normal button: does not submit the form -->
+
+                    <input type="reset" value="Reset">
+                </div>
+
+                
+
+    </form>
+                
+        </section>
+        <hr>
+        <footer id="footer">
+            <p> &copy; all rights reserved</p>
+            <p>&copy; 2025 Fikrah Conference &euro; &reg;</p>
+            <p id="coming-soon">Coming Soon...</p>
+            <span class="extra-info">Hidden extra info</span>
+            <p> Visit our official website: 
+    <a href="tasks.html" target="_blank">fikrah.com</a>
+    </p>
+        </footer>
+    </body>
+</html>
+
+
+<footer id="footer">
+  
+</footer>

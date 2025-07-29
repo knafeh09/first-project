@@ -1,0 +1,109 @@
+.header{
+  background-image: url(bus.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  padding: 60px 20px;
+}
+
+.header{
+    font-size: 30px;
+    padding: 10%;
+}
+
+section{
+    font-size: 30px;
+    padding: 2%;
+    text-transform: lowercase;
+}
+.reg{
+    font-size: 50px;
+}
+
+#footer{
+    background-color: blue;
+    font-size: 30px;
+    color: white;
+}
+
+#footer a{
+    color:white;
+}
+
+.header a{
+    text-decoration: underline;
+    color: black;
+}
+
+input, textarea, select {
+  width: 250px;
+  height: 40px;
+}
+
+div{
+    padding: 10px;
+}
+
+#click, #button{
+    font-size: 30px;
+}
+
+#footer{
+    text-align: center;
+}
+
+.header .nav ul{
+list-style: none;
+display: inline-block;
+gap:30px;
+
+}
+
+#forms input, #forms textarea {
+  margin: 10px;
+  border: 2px solid #ccc;
+}
+
+
+#coming-soon {
+  display: none; 
+}
+
+
+#footer span.extra-info {
+  visibility: hidden;
+}
+
+
+#click {
+  display: inline-block;
+}
+
+.nav ul li a {
+  display: inline;
+}
+
+#overflow-box {
+  height: 100px;
+  width: 300px;
+  overflow-y: scroll;
+  border: 1px solid gray;
+  padding: 10px;
+}
+ 
+q {
+    text-shadow: 2px 2px 4px;
+}
+
+#schedule th {
+  background-color: rgb(92, 92, 231);
+}
+
+.header{
+    text-align: center;
+}
+
+.header .nav{
+    text-align: left;
+}
