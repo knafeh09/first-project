@@ -13,8 +13,12 @@
   .swiper {
     width: 100%;
     max-width: 600px;
-    height: auto;
     margin: auto;
+    padding-bottom: 40px; /* optional spacing */
+  }
+
+  .swiper-wrapper {
+    display: flex; /* important for horizontal slider */
   }
 
   .swiper-slide {
@@ -23,6 +27,7 @@
     border-radius: 12px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
     font-family: sans-serif;
+    min-height: 150px; /* ensures visible slides */
   }
 
   .swiper-slide p {
@@ -37,6 +42,7 @@
     color: #555;
   }
 </style>
+
 
     
     </head>
@@ -275,6 +281,7 @@
 
     </body>
 </html>
+
 
 
 
